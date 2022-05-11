@@ -1,7 +1,7 @@
 import React from 'react'
 import './index.css'
 import About from './components/About'
-import Footer from './components/Footer'
+import Projects from './components/Projects'
 import Info from './components/Info'
 import Interests from './components/Interests'
 
@@ -11,7 +11,7 @@ export default function App() {
             <Info />
             <About />
             <Interests />
-            <Footer />
+            <Projects />
         </div>
     )
 }

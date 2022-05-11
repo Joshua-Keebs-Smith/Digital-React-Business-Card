@@ -21,12 +21,19 @@ body {
   justify-content: center
 }
 
+.contact--btns {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .btn {
-  margin: 1em 5px;
-  padding: .5em;
+  margin: 5px;
+  padding: .5em 2em;
   border: 1px solid black;
   border-radius: 6px;
-  width: 150px;
+  text-decoration: none;
 }
 
 .link--btn {
@@ -34,16 +41,20 @@ body {
   color: #fff;
 }
 
+.github--btn {
+  background: #8c2a87;
+  color: #fff;
+}
+
 .link--btn:hover,
 .link--btn:focus {
-  background: #fff;
   color: #1A1B21;
 }
 
-.email--btn:hover,
-.email--btn:focus {
-  background: #5093e2;
-  color: #fff;
+.github--btn:hover,
+.github--btn:focus {
+  background: #8c2a87;
+  color: black;
 }
 
 .btn:hover,
@@ -92,16 +103,4 @@ img {
   max-width: 400px;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
-}
-
-a {
-  text-decoration: none;
-  color: #fff;
-  padding: 1em;
-  cursor: pointer;
-}
-
-a:hover,
-a:focus {
-  color: #5093e2;
 }
