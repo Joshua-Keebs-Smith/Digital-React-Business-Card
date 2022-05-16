@@ -2,8 +2,8 @@ import React from "react"
 
 export default function Projects() {
     return (
-        <footer>
+        <div>
             <p>Future Projects Here.</p>
-        </footer>
+        </div>
     )
 }
