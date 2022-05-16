@@ -1,4 +1,4 @@
-export default [
+const data = [
     {
         id:1,
         projectName: "Dashboard",
@@ -21,3 +21,5 @@ export default [
         imgAlt: "unit conversion",
     },
 ]
+
+export default data

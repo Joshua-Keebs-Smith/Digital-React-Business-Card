@@ -4,11 +4,11 @@ import About from './components/About'
 import Projects from './components/Projects'
 import Info from './components/Info'
 import Interests from './components/Interests'
-import Data from './data'
+import data from './data'
 
 export default function App() {
 
-    let projectInfo = Data.map(proj => {
+    let projectInfo = data.map(proj => {
         return <Projects 
             key = {proj.id}
             {...proj}
