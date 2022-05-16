@@ -11,14 +11,23 @@ body {
   margin: 20px auto;
   color: #dcdcdc;
   background: #1A1B21;
+  padding: 0 1em;
 }
 
 .info {
-  margin: 0;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center
+  justify-content: center;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
 }
 
 .contact--btns {
@@ -81,26 +90,76 @@ footer {
   background: #161619;
 }
 
-.about {
-  padding: 1em;
-}
-
-.interests {
-  padding: 1em;
-}
-
 h2 {
   margin: 0;
+  text-align: center;
+  /* border-bottom: 1.5px solid rgb(95, 90, 90); */
 }
 
-footer {
+.project {
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  border-bottom: 1.5px solid rgb(95, 90, 90);
 }
 
 img {
   max-width: 400px;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
+  margin: 0;
+}
+
+.proj-name{
+  font-size: 1.25rem;
+  letter-spacing: .20em;
+}
+
+.proj-img {
+  max-width: 300px;
+  transition: all .2s ease-in-out;
+}
+
+.proj-img:hover {
+  transform: scale(2.0);
+}
+
+@media (min-width: 700px) {
+  body {
+    max-width: 650px;
+  }
+
+  div {
+    margin-bottom: 35px;
+  }
+
+  .about, 
+  .info,
+  .interests{
+    max-width: 500px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1110px) {
+  body {
+    max-width: 75%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .info {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+  }
+
+  .info-container {
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
