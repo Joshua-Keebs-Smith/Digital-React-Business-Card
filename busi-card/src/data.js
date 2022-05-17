@@ -3,7 +3,7 @@ const data = [
         id:1,
         projectName: "Dashboard",
         description: "Created a Dashboard using JavaScript to learn and practice Api's.",
-        image: "../images/desktop-screen.png",
+        image: "../imagaes/desktop-screen.png",
         imgAlt: "dashboard",
     },
     {

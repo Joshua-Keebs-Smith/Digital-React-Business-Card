@@ -3,7 +3,8 @@
 }
 
 html {
-  background: #23252C;
+  background: rgb(245,177,31);
+  background: linear-gradient(137deg, rgba(245,177,31,1) 0%, rgba(124,247,255,1) 50%, rgba(0,0,0,1) 100%);
 }
 
 body {
@@ -12,6 +13,7 @@ body {
   color: #dcdcdc;
   background: #1A1B21;
   padding: 0 1em;
+  border-radius: 15px;
 }
 
 .info {
